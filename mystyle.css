@@ -1,0 +1,83 @@
+* {
+    font-size: 114%;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #c6ffdd, #fbd786, #f7797d);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .name-container {
+    background-color: rgba(255, 255, 255, 0.5); /* Set the background color with transparency */
+    padding: 64px;
+    border-radius: 50px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); /* Add a shadow for a better visual effect */
+  }
+  
+  input {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    font-size: inherit;
+  }
+  
+  button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 20px;
+    font-size: inherit;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+  }
+  
+  button.login-button {
+    background-color: #f7797d;
+    color: #fff;
+  }
+  
+  button.signup-button {
+    background-color: #f7797d;;
+    color: #fff;
+  }
+  
+  button:hover {
+    background-color: #fff;
+    color: #f7797d;
+  }
+
+  .name-container2 {
+    background-color: rgba(255, 255, 255, 0.5); /* Set the background color with transparency */
+    padding: 64px;
+    border-radius: 50px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); /* Add a shadow for a better visual effect */
+    height: 465px;
+  }
+
+  hr {
+    border: none;
+    border-top: 2px solid black; /* Adjust the color and thickness as needed */
+    width: -500px;
+    border-style: dashed;
+  }
+
+  textarea {
+    resize: none;
+    font-variant: all-petite-caps;
+    font-size: 30px;
+    
+    
+    
+  }
+  
+  
+  
