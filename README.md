@@ -1,4 +1,3 @@
-# Student-Management-System-Java-Jsp
 # Install tomcat sever preferred version 9 and mysql to run the web application and to store the backend data.
 # Disclamer: Set your Screen zoom size of your browser to 80% for better view of the website.
 # output demo on:
